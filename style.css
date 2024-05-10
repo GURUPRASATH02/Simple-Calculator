@@ -1,0 +1,32 @@
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #700505;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #287c41;
+}
